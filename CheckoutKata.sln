@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.438
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessCore", "src\BusinessCore\BusinessCore.csproj", "{45303EB2-88BA-40B1-8ED3-9BE1307D086F}"
 EndProject
@@ -13,7 +13,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleUI", "src\ConsoleUI\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "src\Infrastructure\Infrastructure.csproj", "{F2FAED0C-116D-4E4D-8BEC-657C77F07CD9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BusinessCore.Tests", "test\BusinessCore.Tests\BusinessCore.Tests.csproj", "{C3188B32-D567-4993-880A-797553B17AF8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BusinessCore.Tests", "test\BusinessCore.Tests\BusinessCore.Tests.csproj", "{C3188B32-D567-4993-880A-797553B17AF8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckoutKata-IntegrationTests", "test\CheckoutKata-IntegrationTests\CheckoutKata-IntegrationTests.csproj", "{332CF823-80CA-4880-AFC7-B8B36E1EC458}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -37,6 +39,10 @@ Global
 		{C3188B32-D567-4993-880A-797553B17AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C3188B32-D567-4993-880A-797553B17AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C3188B32-D567-4993-880A-797553B17AF8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{332CF823-80CA-4880-AFC7-B8B36E1EC458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{332CF823-80CA-4880-AFC7-B8B36E1EC458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{332CF823-80CA-4880-AFC7-B8B36E1EC458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{332CF823-80CA-4880-AFC7-B8B36E1EC458}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -46,6 +52,7 @@ Global
 		{A39ECB26-4DA9-4573-9D10-6B8E0F3FB8DB} = {FB303CBA-92B8-4ED1-A168-0B4AEB4B860C}
 		{F2FAED0C-116D-4E4D-8BEC-657C77F07CD9} = {FB303CBA-92B8-4ED1-A168-0B4AEB4B860C}
 		{C3188B32-D567-4993-880A-797553B17AF8} = {45CC1C9F-7D1B-419A-A7BD-27088F9392A2}
+		{332CF823-80CA-4880-AFC7-B8B36E1EC458} = {45CC1C9F-7D1B-419A-A7BD-27088F9392A2}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2F94663D-A475-499B-BEBD-C3C17208258A}

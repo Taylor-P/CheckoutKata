@@ -1,6 +1,4 @@
-﻿using Microsoft.Extensions.Logging;
-
-namespace BusinessCore.Areas.ShoppingBasket.Models
+﻿namespace BusinessCore.Areas.ShoppingBasket.Models
 {
     public class Item : IItem
     {
